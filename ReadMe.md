@@ -3,4 +3,5 @@
     a. go into created folder to start the server with (npm run start).
 OR
 2. (npm create vite@latest) to create a react+vite application.
-    a. go into created folder to start the server with (npm run dev).
+    a. (npm install) to include node_modules
+    b. go into created folder to start the server with (npm run dev).
