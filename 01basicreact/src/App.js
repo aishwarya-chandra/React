@@ -1,7 +1,11 @@
+import Demo from './Demo.js'
 
 function App() {
   return (
-    <h1>Onto react journey</h1>
+    <>                                         {/* likewise fragments needed */}
+      <Demo />
+      <h1>Onto react journey</h1>
+      </>
   );
 }
 
