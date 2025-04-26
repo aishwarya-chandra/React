@@ -5,3 +5,6 @@ OR
 2. (npm create vite@latest) to create a react+vite application.
     a. (npm install) to include node_modules
     b. go into created folder to start the server with (npm run dev).
+
+## How to use tailwind with vite
+(https://tailwindcss.com/docs/installation/using-vite) 

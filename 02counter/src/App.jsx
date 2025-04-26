@@ -18,7 +18,15 @@ function App() {
 
   const decValue = () => {
     if (counter > 0) {
-      setCounter(counter - 1)
+      setCounter(counter-1)                            //fibre diifing algo take it into one batch and reconize all as same update thus does optimizes to do a single update
+      setCounter(counter-1)
+      setCounter(counter-1)
+      setCounter(counter-1)
+      
+      // setCounter((prevCounter) => prevCounter - 1)               //decreases state using prevCounter value in an arrow function
+      // setCounter((prevCounter) => prevCounter - 1)
+      // setCounter((prevCounter) => prevCounter - 1)
+      // setCounter((prevCounter) => prevCounter - 1)
     }
     console.log("clicked counter decrease", counter);
   }
