@@ -8,3 +8,6 @@ OR
 
 ## How to use tailwind with vite
 (https://tailwindcss.com/docs/installation/using-vite) 
+
+## To install react router in a project
+npm install react-router-dom
